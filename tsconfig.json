@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ES2020",
+    "sourceMap": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "diagnostics": false,
+    "listFiles": false,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true // https://blogs.msdn.microsoft.com/typescript/2018/01/31/announcing-typescript-2-7/#easier-ecmascript-module-interoperability
+  }
+}

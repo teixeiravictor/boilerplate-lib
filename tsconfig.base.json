@@ -1,0 +1,9 @@
+{
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist", "src/**/*.spec.ts", "src/**/*.test.ts"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "."
+  }
+}
